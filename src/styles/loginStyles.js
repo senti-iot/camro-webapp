@@ -18,15 +18,12 @@ const loginStyles = makeStyles(theme => ({
 		paddingRight: '30px',
 	},
 	loginImage: {
-		backgroundImage: `url(${"/assets/loginbg.png"})`,
-		backgroundSize: 'cover',
-		backgroundRepeat: 'no-repeat',
-		backgroundPosition: 'center center'
+		background: 'linear-gradient(180deg, #0D5E34 0%, #16874D 100%)',
 	},
 	logo: {
-		textAlign: 'right',
-		marginTop: '40px',
-		marginRight: '40px'
+		textAlign: 'center',
+		marginTop: '80px',
+		maxWidth: '400px'
 	},
 	header: {
 		marginTop: '50px',
@@ -58,6 +55,7 @@ const loginStyles = makeStyles(theme => ({
 		height: '50px',
 		marginTop: '20px',
 		fontSize: '18px',
+		color: '#fff',
 	},
 	copyright: {
 		alignItems: 'flex-end',

@@ -51,9 +51,7 @@ const Login = () => {
 		<Grid container className={classes.root}>
 			<Grid item className={classes.loginWrapper} sm={12} md={4} lg={3}>
 				<div className={classes.topwrapper}>
-					<div className={classes.logo}>
-						<img src="/assets/logo.svg" alt="" />
-					</div>
+					<img src="/assets/logo.svg" alt="" className={classes.logo} />
 					<div className={classes.needaccount}>Brug for en konto? <a href="/">Opret en konto</a></div>
 
 					<TextField
